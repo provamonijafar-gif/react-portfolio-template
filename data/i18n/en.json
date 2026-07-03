@@ -1,0 +1,63 @@
+{
+  "nav": {
+    "work": "Projects",
+    "about": "About",
+    "blog": "Blog",
+    "resume": "Resume",
+    "contact": "Contact",
+    "home": "Home"
+  },
+  "hero": {
+    "greeting": "Hello 👋",
+    "intro": "I'm Yuhao Zhang,",
+    "role": "Java Full Stack Developer",
+    "direction": "exploring AI Coding.",
+    "subtitle": "I build full-stack applications with Java and React, and I'm exploring how AI tools can change the way developers write code.",
+    "viewProjects": "View Projects"
+  },
+  "projects": {
+    "title": "Projects.",
+    "subtitle": "Each project starts with a real problem. Here's how I approached them."
+  },
+  "skills": {
+    "title": "Skills.",
+    "subtitle": "Technologies I use daily to build full-stack applications."
+  },
+  "engineering": {
+    "title": "Engineering.",
+    "subtitle": "How this portfolio is built — architecture decisions I can explain in interviews.",
+    "items": [
+      {
+        "title": "i18n without heavy frameworks",
+        "description": "Built a lightweight internationalization system using React Context + JSON locale files. No external i18n library. Switching languages updates the entire UI from a single data source — easy to maintain, easy to explain."
+      },
+      {
+        "title": "SEO with Next.js SSG",
+        "description": "Next.js pre-renders pages as static HTML at build time. Search engines see complete content instead of an empty div. Added Open Graph and Twitter Card meta for social sharing previews."
+      },
+      {
+        "title": "Data-driven architecture",
+        "description": "All page content is driven by JSON data files. Components receive data through props — no hardcoded strings in UI code. Adding new content means editing one file, not touching components."
+      },
+      {
+        "title": "Performance-conscious choices",
+        "description": "Native lazy loading on images, async decoding, static page generation, minimal client-side JavaScript. The homepage ships under 3KB of page-specific JS."
+      }
+    ]
+  },
+  "about": {
+    "title": "About.",
+    "motivation": "I started coding because I wanted to build things that work — not just assignments, but tools that solve real problems. When I discovered Spring Boot could turn my ideas into running APIs in minutes, I was hooked.",
+    "direction": "Right now I'm focused on two things: getting better at system design (how services talk to each other, how data flows, how things scale), and learning to work with AI coding tools like Cursor and Codex. I believe developers who learn to collaborate with AI will build faster and think bigger.",
+    "mindset": "I prefer building over theorizing. Every project in this portfolio is something I actually built, broke, debugged, and shipped. That's how I learn."
+  },
+  "contact": {
+    "title": "Contact.",
+    "line1": "LET'S WORK",
+    "line2": "TOGETHER",
+    "button": "Contact Me"
+  },
+  "footer": {
+    "madeBy": "Made With ❤ by"
+  }
+}

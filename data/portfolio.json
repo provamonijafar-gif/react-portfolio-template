@@ -1,1 +1,112 @@
-{"name":"Chetan","headerTaglineOne":"Hello 👋","headerTaglineTwo":"I'm Chetan Verma - curious","headerTaglineThree":"designer and devloper","headerTaglineFour":" based in New Delhi, India.","showCursor":true,"showBlog":true,"darkMode":true,"showResume":true,"socials":[{"id":"1","title":"Github","link":"https://github.com/chetanverma16"},{"id":"2","title":"LinkedIn","link":"https://www.linkedin.com/in/chetanverma7/"},{"id":"3","title":"Twitter","link":"https://twitter.com/realchetanverma"},{"id":"4","title":"Blog","link":"https://blog.chetanverma.com/"},{"id":"5","title":"Email","link":"mailto:hello@chetanverma.com"}],"projects":[{"id":"1","title":"Project One Test","description":"Web Design","imageSrc":"https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"},{"id":"2","title":"Project Two","description":"Web Development","imageSrc":"https://images.unsplash.com/photo-1605153864431-a2795a1b2f95?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNTY3ODl8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"},{"id":"3","title":"Project Three","description":"Design","imageSrc":"https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"},{"id":"4","title":"Project Four","description":"Marketing","imageSrc":"https://images.unsplash.com/photo-1492171983775-a51717616c0d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjB8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"},{"id":"5","title":"Project Five","description":"Development","imageSrc":"https://images.unsplash.com/photo-1534239143101-1b1c627395c5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzZ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"},{"id":"6","title":"Project Six","description":"Design & Development","imageSrc":"https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"}],"services":[{"id":"1","title":"Art Direction","description":"We help with the creation and development of online advertising ideas, with particular focus on their visual appearance."},{"id":"2","title":"Branding","description":"We design key brand elements such as the logo, color scheme, typography, and other design components that makes your brand stand out from competitors."},{"id":"3","title":"Web Design","description":"We build and optimize your online presence.  Website is the digital entry point into your business and a powerful revenue channel."},{"id":"4","title":"3D Design","description":"We combine creative design and technical skills to build striking 3D visualisations that bring your project to life."}],"aboutpara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.","resume":{"tagline":"👋  I'm a software engineer, product designer.","description":"I have delivered world-class user experiences to millions of people. Well-versed with React, Javascript, and most of the Web frameworks.","experiences":[{"id":"1","dates":"March 2022 - Present","type":"Full Time","position":"Frontend Engineer at X","bullets":"Bullet One, Bullet Two"},{"id":"d495c23b-4f65-479a-9b8a-cfbc1c089725","dates":"July 2020 - March 2022","type":"Full Time","position":"Frontend Engineer at X","bullets":"Worked on the frontend of a React application, Worked on the frontend of a React application"}],"education":{"universityName":"University X","universityDate":"2016-2020","universityPara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"},"languages":["Javascript","HTML5","CSS","Python","Go"],"frameworks":["React","Typescript","NodeJs"],"others":["Figma","AdobeXD","AWS"]}}
+{
+  "name": "Yuhao Zhang",
+  "headerTaglineOne": "Hello 👋",
+  "headerTaglineTwo": "I'm Yuhao Zhang,",
+  "headerTaglineThree": "Java Full Stack Developer",
+  "headerTaglineFour": "exploring AI Coding.",
+  "subtitle": "Building production-grade applications with Java, Spring Boot, React and AI-powered development tools.",
+  "showCursor": true,
+  "showBlog": true,
+  "darkMode": true,
+  "showResume": true,
+  "socials": [
+    {
+      "id": "1",
+      "title": "Github",
+      "link": "https://github.com/provamonijafar-gif"
+    },
+    {
+      "id": "2",
+      "title": "Email",
+      "link": "mailto:13670248572@139.com"
+    }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "title": "Intelligent BI Platform",
+      "problem": "Traditional BI tools require manual chart configuration and lack natural language interaction, making data analysis slow and inaccessible to non-technical users.",
+      "solution": "Built an AI-powered platform that accepts natural language queries, automatically generates appropriate chart types, and provides interactive data visualization.",
+      "implementation": "Designed a Spring Boot backend with RESTful APIs for data ingestion and AI service orchestration. The React frontend renders dynamic charts based on AI-returned configurations. MySQL stores user queries and generated chart metadata.",
+      "techStack": ["Java", "Spring Boot", "React", "MySQL", "AI"],
+      "learning": "Learned how to design a clean API layer between AI services and frontend rendering. Understood the tradeoffs between server-side chart generation vs client-side rendering. Got hands-on experience with async task processing.",
+      "impact": "Reduced chart generation time from minutes to seconds with natural language input.",
+      "description": "An AI-powered Business Intelligence platform capable of intelligent chart generation, data visualization and natural language data analysis.",
+      "imageSrc": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=60",
+      "url": "https://github.com/provamonijafar-gif"
+    },
+    {
+      "id": "2",
+      "title": "Coming Soon",
+      "problem": "",
+      "solution": "",
+      "implementation": "",
+      "techStack": [],
+      "learning": "",
+      "impact": "",
+      "description": "More projects are on the way. Stay tuned.",
+      "imageSrc": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=60",
+      "url": "https://github.com/provamonijafar-gif"
+    }
+  ],
+  "services": [
+    {
+      "id": "1",
+      "title": "Java",
+      "category": "Backend",
+      "description": "Core language for backend development with strong OOP and enterprise application expertise."
+    },
+    {
+      "id": "2",
+      "title": "Spring Boot",
+      "category": "Backend",
+      "description": "Building RESTful APIs and microservices with the Spring ecosystem."
+    },
+    {
+      "id": "3",
+      "title": "MySQL & Redis",
+      "category": "Data",
+      "description": "Relational database design, query optimization, and in-memory caching for high-performance systems."
+    },
+    {
+      "id": "4",
+      "title": "React & TypeScript",
+      "category": "Frontend",
+      "description": "Modern frontend development with component-based architecture and type safety."
+    },
+    {
+      "id": "5",
+      "title": "Tailwind CSS",
+      "category": "Frontend",
+      "description": "Utility-first CSS framework for rapid, responsive UI development."
+    },
+    {
+      "id": "6",
+      "title": "AI Coding",
+      "category": "Tooling",
+      "description": "Leveraging AI tools like Cursor and Codex to accelerate development workflows."
+    }
+  ],
+  "aboutpara": "I'm an undergraduate student at Southwest University of Science and Technology, majoring in Information Management and Information System. My focus is on Java full-stack development — building backend services with Spring Boot, crafting frontend interfaces with React, and integrating AI-powered tools into my workflow. I'm particularly interested in how AI Coding can reshape the way we build software.",
+  "resume": {
+    "tagline": "👋 I'm a Java Full Stack Developer exploring AI Coding.",
+    "description": "Undergraduate student focused on building full-stack applications with Java, Spring Boot, and React. Passionate about integrating AI tools into modern development workflows.",
+    "experiences": [
+      {
+        "id": "1",
+        "dates": "2024 - Present",
+        "type": "Project",
+        "position": "Intelligent BI Platform — Full Stack Developer",
+        "bullets": "Designed and implemented an AI-powered BI platform with intelligent chart generation, Built RESTful APIs with Spring Boot and integrated AI services for natural language data analysis"
+      }
+    ],
+    "education": {
+      "universityName": "Southwest University of Science and Technology",
+      "universityDate": "2022 - 2026",
+      "universityPara": "Bachelor's degree in Information Management and Information System. Focused on software engineering, database systems, and full-stack web development."
+    },
+    "languages": ["Java", "TypeScript", "SQL"],
+    "frameworks": ["Spring Boot", "React", "Tailwind CSS"],
+    "others": ["MySQL", "Redis", "Git", "GitHub", "Cursor", "Codex", "AI Coding"]
+  }
+}

@@ -3,13 +3,14 @@ import { useTheme } from "next-themes";
 import { useRouter } from "next/router";
 import React, { useEffect, useState } from "react";
 import Button from "../Button";
-// Local Data
+import { useI18n } from "../../context/I18nContext";
 import data from "../../data/portfolio.json";
 
 const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
   const router = useRouter();
   const { theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
+  const { locale, switchLocale, t } = useI18n();
 
   const { name, showBlog, showResume } = data;
 
@@ -42,6 +43,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                       src={`/images/${
                         theme === "dark" ? "moon.svg" : "sun.svg"
                       }`}
+                      alt="theme toggle"
                     ></img>
                   </Button>
                 )}
@@ -58,6 +60,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                         ? "cancel.svg"
                         : "cancel-white.svg"
                     }`}
+                    alt="menu"
                   ></img>
                 </Popover.Button>
               </div>
@@ -69,48 +72,52 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
             >
               {!isBlog ? (
                 <div className="grid grid-cols-1">
-                  <Button onClick={handleWorkScroll}>Work</Button>
-                  <Button onClick={handleAboutScroll}>About</Button>
+                  <Button onClick={handleWorkScroll}>{t("nav.work")}</Button>
+                  <Button onClick={handleAboutScroll}>{t("nav.about")}</Button>
                   {showBlog && (
-                    <Button onClick={() => router.push("/blog")}>Blog</Button>
+                    <Button onClick={() => router.push("/blog")}>{t("nav.blog")}</Button>
                   )}
                   {showResume && (
-                    <Button
-                      onClick={() =>
-                        window.open("mailto:hello@chetanverma.com")
-                      }
-                    >
-                      Resume
+                    <Button onClick={() => router.push("/resume")}>
+                      {t("nav.resume")}
                     </Button>
                   )}
-
                   <Button
-                    onClick={() => window.open("mailto:hello@chetanverma.com")}
+                    onClick={() => window.open("mailto:13670248572@139.com")}
                   >
-                    Contact
+                    {t("nav.contact")}
+                  </Button>
+                  <Button
+                    onClick={() => switchLocale(locale === "en" ? "zh" : "en")}
+                  >
+                    {locale === "en" ? "中文" : "EN"}
                   </Button>
                 </div>
               ) : (
                 <div className="grid grid-cols-1">
                   <Button onClick={() => router.push("/")} classes="first:ml-1">
-                    Home
+                    {t("nav.home")}
                   </Button>
                   {showBlog && (
-                    <Button onClick={() => router.push("/blog")}>Blog</Button>
+                    <Button onClick={() => router.push("/blog")}>{t("nav.blog")}</Button>
                   )}
                   {showResume && (
                     <Button
                       onClick={() => router.push("/resume")}
                       classes="first:ml-1"
                     >
-                      Resume
+                      {t("nav.resume")}
                     </Button>
                   )}
-
                   <Button
-                    onClick={() => window.open("mailto:hello@chetanverma.com")}
+                    onClick={() => window.open("mailto:13670248572@139.com")}
                   >
-                    Contact
+                    {t("nav.contact")}
+                  </Button>
+                  <Button
+                    onClick={() => switchLocale(locale === "en" ? "zh" : "en")}
+                  >
+                    {locale === "en" ? "中文" : "EN"}
                   </Button>
                 </div>
               )}
@@ -131,22 +138,26 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
         </h1>
         {!isBlog ? (
           <div className="flex">
-            <Button onClick={handleWorkScroll}>Work</Button>
-            <Button onClick={handleAboutScroll}>About</Button>
+            <Button onClick={handleWorkScroll}>{t("nav.work")}</Button>
+            <Button onClick={handleAboutScroll}>{t("nav.about")}</Button>
             {showBlog && (
-              <Button onClick={() => router.push("/blog")}>Blog</Button>
+              <Button onClick={() => router.push("/blog")}>{t("nav.blog")}</Button>
             )}
             {showResume && (
               <Button
                 onClick={() => router.push("/resume")}
                 classes="first:ml-1"
               >
-                Resume
+                {t("nav.resume")}
               </Button>
             )}
-
-            <Button onClick={() => window.open("mailto:hello@chetanverma.com")}>
-              Contact
+            <Button onClick={() => window.open("mailto:13670248572@139.com")}>
+              {t("nav.contact")}
+            </Button>
+            <Button
+              onClick={() => switchLocale(locale === "en" ? "zh" : "en")}
+            >
+              {locale === "en" ? "中文" : "EN"}
             </Button>
             {mounted && theme && data.darkMode && (
               <Button
@@ -155,29 +166,33 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                 <img
                   className="h-6"
                   src={`/images/${theme === "dark" ? "moon.svg" : "sun.svg"}`}
+                  alt="theme toggle"
                 ></img>
               </Button>
             )}
           </div>
         ) : (
           <div className="flex">
-            <Button onClick={() => router.push("/")}>Home</Button>
+            <Button onClick={() => router.push("/")}>{t("nav.home")}</Button>
             {showBlog && (
-              <Button onClick={() => router.push("/blog")}>Blog</Button>
+              <Button onClick={() => router.push("/blog")}>{t("nav.blog")}</Button>
             )}
             {showResume && (
               <Button
                 onClick={() => router.push("/resume")}
                 classes="first:ml-1"
               >
-                Resume
+                {t("nav.resume")}
               </Button>
             )}
-
-            <Button onClick={() => window.open("mailto:hello@chetanverma.com")}>
-              Contact
+            <Button onClick={() => window.open("mailto:13670248572@139.com")}>
+              {t("nav.contact")}
             </Button>
-
+            <Button
+              onClick={() => switchLocale(locale === "en" ? "zh" : "en")}
+            >
+              {locale === "en" ? "中文" : "EN"}
+            </Button>
             {mounted && theme && data.darkMode && (
               <Button
                 onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
@@ -185,6 +200,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                 <img
                   className="h-6"
                   src={`/images/${theme === "dark" ? "moon.svg" : "sun.svg"}`}
+                  alt="theme toggle"
                 ></img>
               </Button>
             )}

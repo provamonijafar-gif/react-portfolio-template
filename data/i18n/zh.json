@@ -1,0 +1,63 @@
+{
+  "nav": {
+    "work": "项目",
+    "about": "关于",
+    "blog": "博客",
+    "resume": "简历",
+    "contact": "联系",
+    "home": "首页"
+  },
+  "hero": {
+    "greeting": "你好 👋",
+    "intro": "我是张宇豪，",
+    "role": "Java 全栈开发者",
+    "direction": "探索 AI 编程。",
+    "subtitle": "我用 Java 和 React 构建全栈应用，同时探索 AI 工具如何改变开发者写代码的方式。",
+    "viewProjects": "查看项目"
+  },
+  "projects": {
+    "title": "项目.",
+    "subtitle": "每个项目都从真实问题出发。以下是我的思考和实现过程。"
+  },
+  "skills": {
+    "title": "技能.",
+    "subtitle": "日常用于全栈开发的技术栈。"
+  },
+  "engineering": {
+    "title": "工程实践.",
+    "subtitle": "这个作品集网站的架构决策——每一项我都能在面试中解释清楚。",
+    "items": [
+      {
+        "title": "轻量级国际化方案",
+        "description": "使用 React Context + JSON 语言文件实现国际化，无需引入第三方 i18n 库。切换语言时从单一数据源更新整个 UI——易维护、易解释。"
+      },
+      {
+        "title": "基于 Next.js SSG 的 SEO",
+        "description": "Next.js 在构建时将页面预渲染为静态 HTML。搜索引擎看到的是完整内容而非空白 div。配置了 Open Graph 和 Twitter Card 实现社交分享预览。"
+      },
+      {
+        "title": "数据驱动架构",
+        "description": "所有页面内容由 JSON 数据文件驱动，组件通过 props 接收数据——UI 代码中没有硬编码文案。新增内容只需编辑一个文件，无需修改组件。"
+      },
+      {
+        "title": "性能优化意识",
+        "description": "图片原生懒加载、异步解码、静态页面生成、最小化客户端 JavaScript。首页页面特定 JS 不到 3KB。"
+      }
+    ]
+  },
+  "about": {
+    "title": "关于.",
+    "motivation": "我开始写代码是因为想做出真正能用的东西——不只是作业，而是能解决实际问题的工具。当我发现 Spring Boot 能在几分钟内把想法变成运行的 API 时，就一发不可收拾了。",
+    "direction": "目前我专注两件事：提升系统设计能力（服务之间如何通信、数据如何流转、系统如何扩展），以及学习与 AI 编程工具协作（Cursor、Codex）。我相信学会与 AI 协作的开发者能更快构建、想得更大。",
+    "mindset": "比起空谈理论，我更喜欢动手。这个作品集里的每个项目都是我真正构建、搞坏、调试、然后交付的。这就是我的学习方式。"
+  },
+  "contact": {
+    "title": "联系.",
+    "line1": "一起",
+    "line2": "合作",
+    "button": "联系我"
+  },
+  "footer": {
+    "madeBy": "Made With ❤ by"
+  }
+}
