@@ -1,79 +1,52 @@
-![thumbnail](https://user-images.githubusercontent.com/16558205/180779213-ea740975-3df1-460a-a964-0a623ee25872.png)
+# React Portfolio Template
 
-### Live - https://react-portfolio-template.netlify.app
-### Demo Video - https://www.youtube.com/watch?v=62_HLbx2zLQ&t=9s
-### Open Source UI Components - https://ui.chetanverma.com/
+## 📌 项目介绍
 
-### Tutorials
+这是一个基于 React 开发的个人作品集网站，用于展示个人项目、技术能力以及学习成果。  
+项目支持响应式布局，可以在桌面端和移动端良好展示。
 
-Youtube - https://www.youtube.com/watch?v=8cmJ2kR4SpM
+在该项目中，我对原始模板进行了去模板化改造，并结合个人实际项目（如 AI 数据分析 BI 系统）进行了内容重构，使其更贴近真实求职场景。
 
-Blog - https://www.chetanverma.com/blog/how-to-build-a-portfolio-website-using-nextjs-and-tailwindcss
+---
 
-### Features - 
+## 🛠 技术栈
 
-- Modern Stack (Next.js + TailwindCSS)
-- Minimal Design
-- Easy To Browse
-- Easy To Customize your details With GUI
-- Blog Crud (Create, Read, Update, Delete blog with easy to use UI).
-- Dark Mode
+- React
+- JavaScript (ES6+)
+- React Router
+- CSS3 / Flex / Grid
+- Next.js (Pages Router)
+- Tailwind CSS
+- GSAP (动画)
+- Git / GitHub
 
+---
 
-### Sections
+## 📷 页面展示
 
-- Header
-- Work
-- Services
-- About
-- Contact
-- Markdown Blog
+### 首页
 
+![首页截图](./public/images/homepage-preview.png)
 
-### How To Use
+---
 
-- Clone this repo
-- run `yarn`
-- `yarn dev`
+## 🚀 项目亮点
 
+- **去模板化重构**：对原始模板进行了结构调整，使其更符合个人简历展示需求  
+- **组件化设计**：页面拆分为多个可复用 React 组件，提高代码可维护性  
+- **响应式布局优化**：适配不同屏幕尺寸，提升移动端访问体验  
+- **国际化（i18n）**：支持中英文切换，基于 React Context + JSON 轻量实现  
+- **SEO 优化**：完善 Open Graph、Twitter Card、Meta 标签，利用 Next.js SSG 预渲染  
+- **数据驱动架构**：所有页面内容由 JSON 数据文件驱动，UI 与数据完全分离  
 
-### How To Deploy - 
+---
 
-- There are many ways to Deploy this repo.
-- here we are gonna use netlify
-- Login into netlify with github
-- after login select the forked repo or the repo you want to deploy
-- after selecting netlify will automatially deploy your website.
+## 📂 运行方式
 
-Quickes way to deploy this repo - 
+```bash
+# 安装依赖
+npm install
 
-[![Deploy To Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/chetanverma16/react-portfolio-template)
-
-
-### How To Contribute - 
-
-I would be very happy to review your PRs and all the awesome things that you can improve on this portfolio.
-
-
-### Tech Stack Used - 
-- Next.js
-- TailwindCSS
-
-
-### Thanks
-
-If you liked this portfolio template, don't forget to give it a ⭐.
-
-## Awesome Contributors
-[@Aryan3212](https://github.com/Aryan3212) [@achu-krishna](https://github.com/achu-krishna)
-
-## Supporting
-Many hours of hard work have gone into this project. Your support will be very appreciated!
-
-[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/chetanverma)
-
-
-
-
-
-
+# 启动项目
+npm run dev
+```
